@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AccidentAI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="styles.css" />	
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>AccidentAI</h1>
+							<p class="major">An Artificial Intelligence based computational model to detect road accidents and provide timely help. </p>
+							</div>
+						<div class="image">
+							<img src="bg.jpg" alt="" />
+						</div>
+					</section>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<p>More than 1.25 million people die every year due to road accidents. Accidents are one of the single highest causes of unnatural deaths in any country. In India alone, 400 people die every day because of road accidents. A lot of such victims die due to lack of timely medical help. Many accidents go unreported, mainly if they occur in remote areas, thinly populated areas or during the night when there are no eyewitnesses. Since it is not possible to manually monitor every road and potential accident areas, the use of technology is imperative to automate this process.</p>
+						</div>
+						<div class="image">
+							<img src="lol2.png" alt="" />
+						</div>
+					</section>
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+						<p>AccidentAI is an artificial intelligence-based project developed to automate the detection of road accidents and call for help. At the core of the AccidentAI is an object detection model based on Mask Regional Convolutional Neural Network algorithm or commonly known as mask R-CNN.  Once trained, the model can successfully detect if an image input to it has a car showing signs of accident or not. Since it is an m-RNN model, it can also highlight the areas where it finds a decisive match and draws a boundary around the region in which it detects the game. As it is based on object detection and not simple classification, it can work on multiple cars in the same image as well. 
+							</p>
+						</div>
+						<div class="image">
+							<img src="6.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<p>The cameras send a video stream to the Image Processing Engine in the cloud. The Image Processing Engine is optimized to sample a continuous set of 300 frames (approximately 10 seconds of video stream at 28 fps rate) from a video stream every 3000 frames (roughly every 100 seconds). The Image Processing engine analyses each frame through the mask R-CNN model. Upon successful detection of an accident in more than or equal to 90% of the frames, the Accident Alert Module is notified. Once an accident has occurred, the video stream from that camera would send images with accident till the time the road is cleared of the accidental vehicles. Thus, the Image Processing Engine only sends three continuous notifications per camera to the Accident Alert Module to suppress duplicate warnings. The Image Processing Engine will resume posting the notifications if it detects no accidents for 15 minutes.</p>
+						</div>
+						<div class="image">
+							<img src="flowchart.png" alt="" />
+						</div>
+					</section>
+					<!-- Five -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+						<p>AccidentAI can be easily installed on existing surveillance cameras. The Image Processing Engine will run on a public cloud service like Amazon Web Services. Once installed, the Alerting Module will map the location of the accident site to the nearest emergency service using Google Map Services. Then, it will send a notification to alert the emergency service of the accident along with the picture of the crash.</p>
+
+						<p>The object detection technology has a vast application. It can be used to detect seizures and heart attacks in the lives of older people living alone or to detect an intruder’s presence in homes. Even Alzheimers patients can use this technology to identify their loved ones.
+
+						 A preliminary conceptualization of this product also qualified for the Round 2 of <a href="https://www.irisnationalfair.org">Intel IRIS National Fair</a>.</p>
+
+						The project can be found at this <a href="https://github.com/vanshajvohra/Machine-Learning/tree/master/automatic_car_accident_detection_using_mask_rnn">link</a>
+
+							
+						</div>
+						<div class="image">
+							<img src="11.png" alt="" />
+						</div>
+					</section>
+
+				<!-- video -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/-osWZXZTq7Y?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						</div>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<p>Made by Vanshaj Vohra in 🇮🇳 </p>
+						</div>
+					</footer>
+			</div>
+		<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script><!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+			
+	</body>
+</html>
